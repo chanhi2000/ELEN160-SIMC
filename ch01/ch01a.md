@@ -534,8 +534,14 @@ x(t)=z_1(0)e^{-t}\left[\begin{matrix}-1\\1\end{matrix}\right]
 \end{align*}
 $$
 
-The requirement then becomes
+We can identify the set of all such initial conditions explicitly, by recalling that
 > ######(1.59)
+$$
+\left[\begin{matrix}z_1(0)\\z_2(0)\end{matrix}\right]=T^{-1}\left[\begin{matrix}x_1(0)\\x_2(0)\end{matrix}\right]=\left[\begin{matrix}-0.5&0.5\\0.5&0.5\end{matrix}\right]\left[\begin{matrix}x_1(0)\\x_2(0)\end{matrix}\right]
+$$
+
+The requirement then becomes
+> ######(1.60)
 $$
 \begin{align*}
 z_2(0)=0.5x_{1}(0)+0.5x_2(0)=0
@@ -544,7 +550,7 @@ $$
 
 which means that $$x(t)\to0$$ iff
 
-> ######(1.60)
+> ######(1.61)
 $$
 \begin{align*}
 x_1(0)=-x_2(0)
