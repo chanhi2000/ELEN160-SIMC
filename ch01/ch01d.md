@@ -21,4 +21,4 @@ $$
 \dot{x}=f(x,p,t)\tag{1.138}
 $$
 
-where $$p$$ is a vector of parameters (for the model in $$(1.137)$$, this vector would be p = [a     b]T). Given such a description, our objective will be to analyze the system dynamics as vector p varies. In this analysis, values of p for which the system behavior changes qualitatively will prove to be particularly important, and we will refer to them as bifurcation points. The following examples illustrate different types of bifurcations that can occur in simple nonlinear systems.
+where $$p$$ is a vector of parameters (for the model in $$(1.137)$$, this vector would be $$p=\left[\begin{matrix}a&b\end{matrix}\right]^T$$). Given such a description, our objective will be to analyze the system dynamics as vector $$p$$ varies. In this analysis, values of $$p$$ for which the system behavior changes qualitatively will prove to be particularly important, and we will refer to them as bifurcation points. The following examples illustrate different types of bifurcations that can occur in simple nonlinear systems.

@@ -89,24 +89,24 @@ $$
 \lambda_i=\lim_{t\to\infty}\frac{1}{t}\ln{\left|m_i(t)\right|}\tag{1.126}
 $$
 
-### Remark 1.3. 
+### Remark 1.3.
 In cases when  $$J(x(t),\:t)$$ has eigenvalues in the right half-plane. (which is typical for chaotic behavior), the solution of $$(1.124)$$ can pose serious numerical problems, since $$\Phi(t;\:t_0,x_0)\to\infty$$ when $$t\to\infty$$. As a result, Lyapunov exponents are usually not computed by direct integration.
 
 #### Table 1.3. A characterization of attractors based on Lyapunov exponents.
 | ATTRACTOR | LYAPUNOV EXPONENTS |
 | :-------: | :----------------: |
 | Equilbrium point | $$0>\lambda_1\geq\cdots\geq\lambda_n$$ |
-| Limit Cycle | $$\begin{matrix}\lambda_1=0\\0\geq\lambda_2\geq\cdots\geq\lambda_n\end{matrix}$$ | 
+| Limit Cycle | $$\begin{matrix}\lambda_1=0\\0\geq\lambda_2\geq\cdots\geq\lambda_n\end{matrix}$$ |
 | Quasi-Periodic (2 frequencies) | $$\begin{matrix}\lambda_1=\lambda_2=0\\0\geq\lambda_{3}\geq\cdots\geq\lambda_n\end{matrix}$$ |
 | Quasi-Periodic ($$k$$ frequencies) | $$\begin{matrix}\lambda_1=\cdots=\lambda_k=0\\0\geq\lambda_{k+1}\geq\cdots\geq\lambda_n\end{matrix}$$ |
 | Chaotic | $$\begin{matrix}\lambda_1>0\\\sum_{i=1}^{n}{\lambda_i}<0\end{matrix}$$ |
 
-What is the benefit of Lyapunov exponents? For one thing, they allow us to neatly classify attractors in the manner shown in __Table 1.3__, Lyapunov exponents also provide an intuitive explanation for the sensitivity of chaotic trajectories with respect to initial conditions. Namely, since $$\lambda_1>0$$, equation $$(1,118)$$ implies that any two nearby trajectories will diverge at an average rate of $$e^{\lambda_1t$$. It should be noted, however, that the distance between the trajectories is ultimately bounded by the dimensions of the attractor (which are finite). Since strange attractors typically exhibit spatial folding (see __Fig. 1.21__ for a typical illustration), initially divergent trajectories can in fact get relatively close together after a certain amount of time, only to drift apart again.
+What is the benefit of Lyapunov exponents? For one thing, they allow us to neatly classify attractors in the manner shown in __Table 1.3__, Lyapunov exponents also provide an intuitive explanation for the sensitivity of chaotic trajectories with respect to initial conditions. Namely, since $$\lambda_1>0$$, equation $$(1,118)$$ implies that any two nearby trajectories will diverge at an average rate of $$e^{\lambda_1t}$$. It should be noted, however, that the distance between the trajectories is ultimately bounded by the dimensions of the attractor (which are finite). Since strange attractors typically exhibit spatial folding (see __Fig. 1.21__ for a typical illustration), initially divergent trajectories can in fact get relatively close together after a certain amount of time, only to drift apart again.
 
 ### Fractal Dimension
 Another unique characteristic of chaotic attractors is related to their dimensionality. Our intuitive understanding of this property is usually Euclidean. We tend to think of a line as 1-dimensional, a surface as 2-dimensional, a volume as 3-dimensional, etc. In this context, dimensionality serves as a measure of the complexity of a geometric object (for example, we can legitimately claim that a surface is more complex than a line).
 
-Since strange attractors are generally very complicated geometrical structures, it would clearly be interesting to establish their dimension. This would enable us to categorize a particular strange attractor as a line, surface, volume, or perhaps none of the above... In order to do this, we first need a definition of dimension which is broader than the traditional Euclidean one, and can be applied to arbitrary sets of points. While there are a number of such definitions, in the following we will focus on one which is known as *capacitive dimension*. 
+Since strange attractors are generally very complicated geometrical structures, it would clearly be interesting to establish their dimension. This would enable us to categorize a particular strange attractor as a line, surface, volume, or perhaps none of the above... In order to do this, we first need a definition of dimension which is broader than the traditional Euclidean one, and can be applied to arbitrary sets of points. While there are a number of such definitions, in the following we will focus on one which is known as *capacitive dimension*.
 
 To understand this concept, imagine that the entire state space is divided into “cubes' with sides of length $$\epsilon$$. If $$N(\epsilon)$$ denotes the number of cubes that it follows that contain points from the set that we are examining, we can introduce the quantity $$C(\epsilon)$$, defined as
 $$
@@ -120,13 +120,13 @@ $$
 
 is known as the capacitive dimension of this set. The following three example show that the definition of capacitive dimension is consistent with the Euclidean one.
 
-### Example 1.18. 
+### Example 1.18.
 Let us begin by considering a single point, since this is the simplest possible geometrical object. As shown in __Fig. 1.33__, a single box is sufficient to cover the point for any choice of $$\epsilon$$. This implies that $$N(\epsilon)=1$$ an therefore $$C(\epsilon)=0$$ as well, which is consistent with the Euclidean dimension.
 
 #### Fig. 1.33. The dimensionality of a point.
 ![fig1-33]()
 
-### Example 1.19. 
+### Example 1.19.
 Consider the straight line of length $$L$$, shown in __Fig. 1.34__.
 
 #### Fig. 1.34. The dimensionality of a line.
@@ -160,7 +160,7 @@ $$
 
 which obviously matches the Euclidean dimension.
 
-### Example 1.20. 
+### Example 1.20.
 Consider a square surface with sides of length $$L$$.
 #### Fig. 1.35. The dimensionality of a square.
 ![fig1-35]()
@@ -168,7 +168,7 @@ Consider a square surface with sides of length $$L$$.
 The number of boxes needed to cover this surface is
 $$
 N(\epsilon)=\frac{L^2}{\epsilon^2}\tag{1.133}
-$
+$$
 
 which means that
 $$

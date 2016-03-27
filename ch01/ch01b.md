@@ -265,7 +265,16 @@ $$
 
 with eigenvalues $$\lambda_{1,2}=0.5\pm{j}0.866$$. This indicates that $$x^e=\left[\begin{matrix}0&0\end{matrix}\right]^T$$ is a *repeller*, and that solutions originating in the neighborhood of this point diverge from it. It is important to recall, however, that this linearization is valid only near the origin, so we can’t tell what happens to these solutions as $$t\to\infty$$, The easiest way to evaluate the long term behavior of the trajectories is to numerically solve the differential equation for several different initial conditions (some near the equilibrium, and some further away). The typical responses for $$x_1(t)$$ and $$x_2(t)$$ are shown in __Figs. 1.5__ and __1.6__, indicating that solutions seem to settle into a periodic steady state as $$t\to\infty$$. Such a trajectory is referred to as a *limit cycle*, and it represents a legitimate attractor for this system.
 
+#### Fig. 1.5. Evolution of state $$x_1$$.
+![fig1-05]()
+
+#### Fig. 1.6. Evolution of state $$x_2$$.
+![fig1-06]()
+
 To see the attractive nature of the limit cycle more clearly, in __Fig. 1.7__ we provide a phase portrait of the system (making sure that the simulation time was long enough to allow solutions to reach their steady state). This portrait indicates that the limit cycle is represented by a closed curve in the phase space, and that all of our trajectories are attracted to it.
+
+#### Fig. 1.7. The limit cycle in the phase space.
+![fig1-07]()
 
 #### *Quasi-Periodic Attractors*
 Before we begin our discussion of quasi-periodic attractors, it is first necessary to define what we mean by quasi-periodic behavior. The simplest example would be the function
@@ -286,14 +295,6 @@ $$
 \end{align*}\tag{1.95}
 $$
 
-#### Fig. 1.5. Evolution of state x1.
-![fig1-05]()
-
-#### Fig. 1.6. Evolution of state x2.
-![fig1-06]()
-
-#### Fig. 1.7. The limit cycle in the phase space.
-![fig1-07]()
 
 For some integers $$p$$ and $$q$$, or equivalently if
 $$
@@ -343,12 +344,30 @@ $$
 
 which means that the frequencies are commensurate. As a result, $$x_1(t)$$ and $$x_2(t)$$ have the periodic form shown in __Fig. 1.9__ and __1.10__. The attractor for this system is the closed curve shown in __Fig. 1.11__.
 
+#### Fig. 1.9. Evolution of state $$x_1$$.
+![fig1-09]()
+
+#### Fig. 1.10. Evolution of state $$x_2$$.
+![fig1-10]()
+
+#### Fig. 1.11. The attractor.
+![fig1-11]()
+
 - **CASE 2.** For $$L=2$$, $$C=1$$ and $$\omega_0=1.5$$ the ratio
 $$
 \frac{\omega_0}{\omega_C}=\frac{3\sqrt{2}}{2}\tag{1.102}
 $$
 
 is *not* a rational number. In this case, states $$x_1(t)$$ and $$x_2(t)$$ exhibit quasi-periodic behavior, as indicated in __Figs. 1.12__ and __1.13__. The attractor is now the rather complicated set shown in __Fig. 1.14__.
+
+#### Fig. 1.12. Evolution of state $$x_1$$.
+![fig1-12]()
+
+#### Fig. 1.13. Evolution of state $$x_2$$.
+![fig1-13]()
+
+#### Fig. 1.14. The attractor.
+![fig1-14]()
 
 ### Example 1.9.
 Let us now consider a slightly more general scenario, where $$f(t)$$ is a product of two sinusoids
@@ -360,24 +379,6 @@ As in __Example 1.8__, $$f(t)$$ will be periodic when condition $$(1.96)$$ holds
 $$
 f(t)=\frac{1}{2}\cos{\left[\left(\omega_1-\omega_2\right)t\right]}+\frac{1}{2}\cos{\left[\left(\omega_1+\omega_2\right)t\right]}\tag{1.104}
 $$
-
-#### Fig. 1.9. Evolution of state $$x_1$$.
-![fig1-09]()
-
-#### Fig. 1.10. Evolution of state $$x_2$$.
-![fig1-10]()
-
-#### Fig. 1.11. The attractor.
-![fig1-11]()
-
-#### Fig. 1.12. Evolution of state $$x_1$$.
-![fig1-12]()
-
-#### Fig. 1.13. Evolution of state $$x_2$$.
-![fig1-13]()
-
-#### Fig. 1.14. The attractor.
-![fig1-14]()
 
 Before proceeding to more general cases, we need to observe that the solutions of nonlinear differential equations are rarely available in analytic form, and are usually obtained numerically. This raises the following question: If we only have a plot of $$f(t)$$, how can we tell whether it is quasi-periodic? One way to do this is based on the fact that a quasi-periodic function can always be expressed as
 $$
