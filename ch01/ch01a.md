@@ -421,7 +421,7 @@ $$
 x(t)=z_1(0)e^{-t}\left[\begin{matrix}-1\\1\end{matrix}\right]+z_2(0)e^{2t}\left[\begin{matrix}1\\1\end{matrix}\right]\tag{1.57}
 $$
 
-Since one of the exponents is positive, we can conclude that $$x(t)\to\infty&(t\to\infty)\end{matrix}$$ for almost all initial conditions.  What do we mean by 'almost all'?  To see this, it suffices to observe that there are some special initials conditions for which $$x(t)$$ still tends to $$x^e=0$$ when $$t\to\infty$$.  These initial conditions correspond to $$z_2(0)=0$$, since in that case
+Since one of the exponents is positive, we can conclude that $$\begin{matrix}x(t)\to\infty&(t\to\infty)\end{matrix}$$ for almost all initial conditions.  What do we mean by 'almost all'?  To see this, it suffices to observe that there are some special initials conditions for which $$x(t)$$ still tends to $$x^e=0$$ when $$t\to\infty$$.  These initial conditions correspond to $$z_2(0)=0$$, since in that case
 $$
 x(t)=z_1(0)e^{-t}\left[\begin{matrix}-1\\1\end{matrix}\right]\tag{1.58}
 $$
