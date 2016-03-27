@@ -218,7 +218,7 @@ $$
 J(x^e)=\left[\begin{matrix}2&-0.5\\0&-1.1\end{matrix}\right]\tag{1.87}
 $$
 
-and the eigenvalues of the linearized system are $$\lambda_1=2$$ and $$\lambda_2=-1.1$$. This indicates that $$x^e=\left[\begin{matrix}1&0\end{matrix}\right]^T is an *unstable* equilibrium.
+and the eigenvalues of the linearized system are $$\lambda_1=2$$ and $$\lambda_2=-1.1$$. This indicates that $$x^e=\left[\begin{matrix}1&0\end{matrix}\right]^T$$ is an *unstable* equilibrium.
 
 **(iii)** For $$x^e=\left[\begin{matrix}3&0\end{matrix}\right]^T$$, we have
 $$
