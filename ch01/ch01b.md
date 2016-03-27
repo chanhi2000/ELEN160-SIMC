@@ -336,7 +336,7 @@ $$
 $$
 
 From $$(1.98)$$ and $$(1.99)$$ it is clear that the dynamics of this system involves two different frequencies, $$\omega_0$$ and $$\omega_C$$. Depending on how $$\omega_0$$, $$L$$ and $$C$$ are chosen, the following scenarios can arise.
-- **CASE 1.** For $$L=1$$, $$C=1$$ and $$\oemga_0=1.5$$ we have
+- **CASE 1.** For $$L=1$$, $$C=1$$ and $$\omega_0=1.5$$ we have
 $$
 \frac{\omega_0}{\omega_C}=\frac{3}{2}\tag{1.101}
 $$

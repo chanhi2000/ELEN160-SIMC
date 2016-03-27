@@ -189,6 +189,16 @@ To see how the definition of capacitive dimension extends to some less conventio
 #### Fig. 1.36. THe construction of the *Cantor* set.
 ![fig1-36]()
 
+To figure out the capacitive dimension of the Cantor set, let us observe that we need a single box of size $$\epsilon=1$$ to cover the set in Step 0, 2 boxes of size $$\epsilon=\tfrac{1}{3}$$ to do this in Step 1, 4 boxes of size $$\epsilon=\tfrac{1}{9}$$ Step 2, etc. Obviously, in Step $$n$$, we will need $$2^n$$ boxes of size $$\epsilon=\left(\tfrac{1}{3}\right)^n$$. Since $$\begin{matrix}\epsilon\to0&\text{when }n\to\infty\end{matrix}$$, we have
+$$
+\begin{align*}
+d_C&=\lim_{\epsilon\to0}\left[\frac{\ln{N(\epsilon)}}{\ln{(1/\epsilon)}}\right]\\
+&=\lim_{n\to\infty}\left[\frac{\ln{2^n}}{\ln{3^n}}\right]\\
+&=0.63
+\end{align*}\tag{1.136}
+$$
+This is a somewhat surprising result, which suggests that there are certain sets with non-integer dimensionality. Sets of this type are known as *fractals*.
 
+How does this apply to strange attractors? well, it turns out that they too are fractals, unlike all other types of attractors (which have integer dimension). In view of that, what would it mean if we established that a single attractor has $$d_C=2.4$$? This  number would indicate that the attractor is more complex than a surface, but less complex than a volume. Apart from dimensionality, fractals have a number of other interesting properties. Perhaps the most striking one is the fact that they possess both a macroscopic and microscopic structure. The ‘pattern’ exhibited by the attractor in the state space is replicated on *all* scales of magnitude.
 
-
+[^5]: It should be noted that the difference $$\delta{x}(t)$$ starts out as very small, and remains that way for a certain amount of time by virtue of $$(1.118)$$
