@@ -1,6 +1,6 @@
 [SCU] Chaos Theory - The Unknowalbe and Counterintuitive
 
-# Prefacd
+# Preface
 
 This book grew out of a course on science and religion that I have taught at Santa Clara University for a number of years. This course (whose title is: “Chaos Theory Metamathematics and the Limits of Knowledge: A Scientific Perspective on Religion") is rather unique, since it is both a technical elective for engineering students and satisfies a Core Curriculum requirement in religious studies. As such, it requires two very different textbooks — one that focuses on questions related to science, aesthetics and theology (*Truth, Beauty and the Limits of Knowledge*), and this book, which represents its “technical companion”.
 
