@@ -5,3 +5,4 @@
 	* [Nonlinear Systems](ch01/ch01b.md)
 	* [Trademarks of Chaos](ch01/ch01c.md)
 	* [Bifurcations](ch01/ch01d.md)
+	* [Routes to Chaos](ch01/ch01e.md)
