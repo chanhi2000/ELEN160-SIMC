@@ -106,7 +106,89 @@ What is the benefit of Lyapunov exponents? For one thing, they allow us to neatl
 ### Fractal Dimension
 Another unique characteristic of chaotic attractors is related to their dimensionality. Our intuitive understanding of this property is usually Euclidean. We tend to think of a line as 1-dimensional, a surface as 2-dimensional, a volume as 3-dimensional, etc. In this context, dimensionality serves as a measure of the complexity of a geometric object (for example, we can legitimately claim that a surface is more complex than a line).
 
-Since strange attractors are generally very complicated geometrical structures, it would clearly be interesting to establish their dimension. This would enable us to categorize a particular strange attractor as a line, surface, volume, or perhaps none of the above... In order to do this, we first need a definition of dimension which is broader than the traditional Euclidean one, and can be applied to arbitrary sets of points. While there are a number of such definitions, in the following we will focus on one which is known as capacitive dimension. 
+Since strange attractors are generally very complicated geometrical structures, it would clearly be interesting to establish their dimension. This would enable us to categorize a particular strange attractor as a line, surface, volume, or perhaps none of the above... In order to do this, we first need a definition of dimension which is broader than the traditional Euclidean one, and can be applied to arbitrary sets of points. While there are a number of such definitions, in the following we will focus on one which is known as *capacitive dimension*. 
 
-To understand this concept, imagine that the entire state space is divided into “cubes' with sides of length ε. If N(ε) denotes the number of cubes that it follows that contain points from the set that we are examining, we can introduce the quantity C(ε), defined as
+To understand this concept, imagine that the entire state space is divided into “cubes' with sides of length $$\epsilon$$. If $$N(\epsilon)$$ denotes the number of cubes that it follows that contain points from the set that we are examining, we can introduce the quantity $$C(\epsilon)$$, defined as
+$$
+C(\epsilon)=\frac{\ln{N(\epsilon)}}{\ln{\tfrac{1}{\epsilon}}}\tag{1.127}
+$$
+
+The limit
+$$
+d_C=\lim_{\epsilon\to0}C(\epsilon)\tag{1.128}
+$$
+
+is known as the capacitive dimension of this set. The following three example show that the definition of capacitive dimension is consistent with the Euclidean one.
+
+### Example 1.18. 
+Let us begin by considering a single point, since this is the simplest possible geometrical object. As shown in __Fig. 1.33__, a single box is sufficient to cover the point for any choice of $$\epsilon$$. This implies that $$N(\epsilon)=1$$ an therefore $$C(\epsilon)=0$$ as well, which is consistent with the Euclidean dimension.
+
+#### Fig. 1.33. The dimensionality of a point.
+![fig1-33]()
+
+### Example 1.19. 
+Consider the straight line of length $$L$$, shown in __Fig. 1.34__.
+
+#### Fig. 1.34. The dimensionality of a line.
+![fig1-34]()
+
+The number of ‘boxes’ needed to cover this surface is
+$$
+N(\epsilon)=\frac{L}{\epsilon}\tag{1.129}
+$$
+
+and therefore
+$$
+\begin{align*}
+C(\epsilon)&=\frac{\ln{N(\epsilon)}}{\ln{(1/\epsilon)}}\\
+&=\frac{\ln{L}}{\ln{1/\epsilon}}+\frac{\ln{(1/\epsilon)}}{\ln{(1/\epsilon)}}\\
+&=1+\frac{\ln{L}}{\ln{(1/\epsilon)}}
+\end{align*}\tag{1.130}
+$$
+
+Since
+$$
+\begin{matrix}
+\ln{(1/\epsilon)}\to\infty&\text{when }\epsilon\to0
+\end{matrix}\tag{1.131}
+$$
+
+it follows that
+$$
+d_C=\lim_{\epsilon\to0}C(\epsilon)=1\tag{1.132}
+$$
+
+which obviously matches the Euclidean dimension.
+
+### Example 1.20. 
+Consider a square surface with sides of length $$L$$.
+#### Fig. 1.35. The dimensionality of a square.
+![fig1-35]()
+
+The number of boxes needed to cover this surface is
+$$
+N(\epsilon)=\frac{L^2}{\epsilon^2}\tag{1.133}
+$
+
+which means that
+$$
+\begin{align*}
+C(\epsilon)&=\frac{\ln{L^2}}{\ln{1/\epsilon}}+\frac{\ln{(1/\epsilon)^2}}{\ln{(1/\epsilon)}}\\
+&=2+\frac{\ln{L^2}}{\ln{(1/\epsilon)}}
+\end{align*}\tag{1.134}
+$$
+
+and therefore
+$$
+d_C=\lim_{\epsilon\to0}C(\epsilon)=2\tag{1.135}
+$$
+Once again we observe consistency with the Euclidean definition.
+
+To see how the definition of capacitive dimension extends to some less conventional sets, let us consider a line of unit length, which we will transform through an infinite sequence of steps. The transformation consists of removing the middle third of each existing segment, until we arrive at a disconnected set of points (when $$n\to\infty$$). This procedure is illustrated in __Fig. 1.36.__, and the resulting set is known as the Cantor set.
+
+#### Fig. 1.36. THe construction of the *Cantor* set.
+![fig1-36]()
+
+
+
 

@@ -68,8 +68,8 @@ Consider the circuit in Fig. 1.2, where $$v_g(t)$$ is assumed to be a time-varyi
 Kirchoff's current and voltage laws for this circuit produce the following two equations
 $$
 \begin{aligned}
-&i_C-i_L&=0\\
-&-v_g(t)+Ri_L+v_L+v_C&=0
+i_C-i_L&=0\\
+-v_g(t)+Ri_L+v_L+v_C&=0
 \end{aligned}\tag{1.9}
 $$
 
