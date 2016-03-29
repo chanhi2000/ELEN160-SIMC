@@ -13,3 +13,4 @@
 	* [Absolute Proofs](ch02/ch02b.md)
 	* [Gödel's Incompleteness Theorem](ch02/ch02c.md)
 	* [Incompleteness in Modern Mathematics](ch02/ch02d.md)
+	* [Notes](ch02/ch02e.md)

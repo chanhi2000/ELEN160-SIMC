@@ -10,7 +10,7 @@ We begin with a description of Gödel's main result, which can be summarized in 
 __Theorem 2.1__ has two important corollaries, which pertain to consistency and completeness.
 
 ### Corollary 2.1.
-It is impossible to prove the consistency of the formal system proposed in Principia Mathematica, or any similarly complex formal system within the system  itself.
+It is impossible to prove the consistency of the formal system proposed in Principia Mathematica, or any similarly complex formal system within the system  itself.
 
 ### Corollary 2.2.
 Given any consistent formalization of number theory (including the one in Principia Mathematica), there are true number theoretic statements (whose truth can be established by external means) that are expressible as well-formed strings, but are *not* theorems. In other words, no sufficiently complex formal system is complete with respect to the “standard” interpretation (which assumes number theory as its model).
