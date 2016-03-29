@@ -37,7 +37,7 @@ To get a sense for how the Incompleteness Theorem was proved, we first need to b
 | $$)$$ | $$323$$ |
 | $$<$$ | $$212$$ |
 | $$>$$ | $$213$$ |
-| $$]$$ | $$312$$ |
+| $$[$$ | $$312$$ |
 | $$]$$ | $$313$$ |
 | $$a$$ | $$262$$ |
 | $$'$$ | $$163$$ |
@@ -50,7 +50,7 @@ To get a sense for how the Incompleteness Theorem was proved, we first need to b
 | $$:$$ | $$636$$ |
 | $$\text{end of line}$$ | $$611$$ |
 
-As noted earlier, one of the key elements of Gödel's proof is the construction of a mapping that associates a specific integer with every TNT symbol. A possible way to do this is shown in __Table 2.1__, where each symbol is matched to a triplet of digits from the set $${1,\:2,\:3,\:6}$$.[^8]
+As noted earlier, one of the key elements of Gödel's proof is the construction of a mapping that associates a specific integer with every TNT symbol. A possible way to do this is shown in __Table 2.1__, where each symbol is matched to a triplet of digits from the set $$\{1,\:2,\:3,\:6\}$$.[^8]
 
 Using this mapping, we can *uniquely* express any TNT string as an integer (usually, a very large one). For example, the string
 $$
@@ -86,7 +86,7 @@ A number like $$\gamma$$ which corresponds to a TNT theorem will be referred to 
 
 In order to provide a compact description of Gödel's proof, we need to induce two special number theoretic functions, both of which are can be represented as TNT strings. The first one, denoted $$F_1(a,\:a^{\prime})$$, takes $$a$$ (which is the Gödel number of an entire proof) and checks if $$a^{\prime}$$ is the Gödel number of its last line. In view of our previous discussion, it follows that $$a^{\prime}$$ is a TNT number whenever $$F_1(a,\:a^{\prime})$$ is true for some $$a$$.
 
-The second function, denoted $$F_2(a^{\prime\prime},\:a^{\prime})$$, is slightly more complicated. Its first argument, $$a^{\prime\prime}$$, is assumed to be the Gödel number of a known TNT string with a single free variable. This function replaces every occurrence of the free variable with $$a^{\prime\prime}$$, and then checks whether $$a^{\prime}$$ is the Gödel number of the resulting string.
+The second function, denoted $$F_2(a^{\prime\prime},\:\:a^{\prime})$$, is slightly more complicated. Its first argument, $$a^{\prime\prime}$$, is assumed to be the Gödel number of a known TNT string with a single free variable. This function replaces every occurrence of the free variable with $$a^{\prime\prime}$$, and then checks whether $$a^{\prime}$$ is the Gödel number of the resulting string.
 
 Given these two definitions, let us now consider the string $$H$$:
 $$
