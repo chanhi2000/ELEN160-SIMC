@@ -9,3 +9,6 @@
 	* [Chaos in Physical Systems](ch01/ch01f.md)
 	* [Notes](ch01/ch01g.md)
 * [Metamathematics](ch02.md)
+	* [An Introduction to Formal Systems](ch02/ch02a.md)
+	* [Absolute Proofs](ch02/ch02b.md)
+	* [Gödel's Incompleteness Theorem](ch02/ch02c.md)
