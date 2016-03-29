@@ -6,3 +6,6 @@
 	* [Trademarks of Chaos](ch01/ch01c.md)
 	* [Bifurcations](ch01/ch01d.md)
 	* [Routes to Chaos](ch01/ch01e.md)
+	* [Chaos in Physical Systems](ch01/ch01f.md)
+	* [Notes](ch01/ch01g.md)
+* [Metamathematics](ch02.md)

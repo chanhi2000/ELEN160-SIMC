@@ -532,9 +532,9 @@ provides an example of chaotic behavior in non-autonomous systems.[^4] The attra
 #### Fig. 1.28. Evolution of state x1.
 ![fig1-28]()
 
-[^1]: E. N. Lorenz, “Deterministic nonperiodic flow,” Journal of Atmospheric Science 20, pp. 130-144. 1963.
-[^2]: O. E. Rössler, “An equation for continuous chaos,” Physics Letters A, 57, pp. 397-398, 1976.
-[^3]: T. Matsumoto, “A chaotic attractor from Chua's circuit,” IEEE Transactions on Circuits and Systems, CAS-31, pp. 1055-1058, 1984.
+[^1]: E. N. Lorenz, “Deterministic nonperiodic flow,” *Journal of Atmospheric Science* 20, pp. 130-144. 1963.
+[^2]: O. E. Rössler, “An equation for continuous chaos,” *Physics Letters* A, 57, pp. 397-398, 1976.
+[^3]: T. Matsumoto, “A chaotic attractor from Chua's circuit,” *IEEE Transactions on Circuits and Systems*, CAS-31, pp. 1055-1058, 1984.
 [^4]: Y. Ueda, “Survey of regular and chaotic phenomena in the forced Duffing oscillator,” Chaos, Solitons and Fractals, 1, pp. 199-231, 1991.
 
 
