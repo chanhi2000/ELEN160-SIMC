@@ -3,7 +3,7 @@
 In this section we will consider several areas of modern mathematics whose development was greatly influenced by Gödel's work. Some of the results obtained in these fields challenge our basic intuitive concepts, and extend them in ways that open up exciting new possibilities. We will begin with an example from computer science, and then move on to a discussion of non-Cantorian set theory and non-standard analysis.[^10]
 
 ### The Elusive Number Omega
-In many ways, a formal system is very much like a computer program. Indeed, one can easily envision the axioms and rules of inference as an *algorith$$M^*$$, whose output are the resulting theorems. With that in mind, it is not very surprising that a form of Gödelian incompleteness is encountered in the domain of computer science. In this section, we will concentrate on one such case, which involves the number Omega introduced by Gregory Chaitin.[^11]
+In many ways, a formal system is very much like a computer program. Indeed, one can easily envision the axioms and rules of inference as an *algorith $$M^*$$, whose output are the resulting theorems. With that in mind, it is not very surprising that a form of Gödelian incompleteness is encountered in the domain of computer science. In this section, we will concentrate on one such case, which involves the number Omega introduced by Gregory Chaitin.[^11]
 In order to understand what makes Omega so interesting, we first need to establish some basic facts about computer programs. We will begin by considering the following simple code, whose purpose is to compute the smallest number for which the sum
 $$
 s_n=\sum_{k=0}^n\frac{1}{2^k}\tag{2.50}

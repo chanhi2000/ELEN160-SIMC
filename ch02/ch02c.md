@@ -10,7 +10,7 @@ We begin with a description of Gödel's main result, which can be summarized in 
 __Theorem 2.1__ has two important corollaries, which pertain to consistency and completeness.
 
 ### Corollary 2.1.
-It is impossible to prove the consistency of the formal system proposed in Principia Mathematica, or any similarly complex formal system within the system  itself.
+It is impossible to prove the consistency of the formal system proposed in Principia Mathematica, or any similarly complex formal system within the system itself.
 
 ### Corollary 2.2.
 Given any consistent formalization of number theory (including the one in Principia Mathematica), there are true number theoretic statements (whose truth can be established by external means) that are expressible as well-formed strings, but are *not* theorems. In other words, no sufficiently complex formal system is complete with respect to the “standard” interpretation (which assumes number theory as its model).
@@ -100,7 +100,7 @@ $$
 
 The Gödel number for string $$G$$ will be denoted in the following by $$g$$ (which implies that $$F_2(u,\:g)$$ is true by definition).
 
-The number theoretic interpretation of $$G$$ is: “There do *not* exist numbers $$a$$ and $$a^{\prime}$$ such that $$F_1(a,\:a^{\prime})$$ and F_2(u,\:a^{\prime})$$ are simultaneously true.” This interpretation gives rise to two possible scenarios.
+The number theoretic interpretation of $$G$$ is: “There do *not* exist numbers $$a$$ and $$a^{\prime}$$ such that $$F_1(a,\:a^{\prime})$$ and $$F_2(u,\:a^{\prime})$$ are simultaneously true.” This interpretation gives rise to two possible scenarios.
 
 - __CASE 1.__ Suppose that the number theoretic interpretation of $$G$$ is a *false* statement. Then, there exist $$a$$ and $$a^{\prime}$$ such that both $$F_1(a,\:a^{\prime})$$ and $$F_2(u,\:a^{\prime})$$ are true. By definition, $$F_2(u,\:a^{\prime})$$ is true only when $$a^{\prime}=g$$. Therefore, $$F_1(a,\:g)$$ must true for some $$a$$. This means that $$g$$ is a TNT number, which is equivalent to saying that $$G$$ is a TNT theorem. Such a result represents a contradiction, since the interpretation of a TNT theorem cannot be a false statement (bear in mind at every TNT theorem must map into a number theoretic truth).
 
