@@ -79,15 +79,12 @@ $$
 \sim S_1\supset{S}\tag{2.38}
 $$
 is a theorem as well. We now have a rather interesting situation, in which both $$\sim{S}_1$$ and $$\sim{S}_1\supset{S}$$ are theorems. Applying the Rule of Detachment to these two statements, we conclude that S is itself a theorem, although it was an arbitrarily chose string. In other words, if Sentential Calculus were an inconsistent system, then any well-formed string in it would be a theorem.
-
     - __STEP 2.__ In view of the result obtained in Step 1, we can now claim that Sentential Calculus is consistent if there exists at least one well-formed string that is not a theorem. The trick, of course, is to find such a statement, and this is by no means easy. A necessary step in this process is to identify a property that is common to all axioms and theorems in the system. In order to do that, let us group all the letters of the alphabet into two classes, denoted $$K_1$$ and $$K_2$$. The compound strings will them be classified according to the following rules:
 		- __Rule 1.__ A string of the form $$S_1\vee{S}_2$$ is placed in class $$K_2$$, if *both* $$S_1$$ and $$S_2$$ are in $$K_2$$. Otherwise, it is placed in $$K_1$$.
 		- __Rule 2.__ A string of the form $$S_1\supset{S}_2$$ So is placed in class $$K_2$$ if $$S_1$$ is in $$K_1$$ and $$S_2$$ is in $$K_2$$. Otherwise, it is placed in $$K_1$$.
 		- __Rule 3.__ A string of the form $$S_1\wedge{S}_2$$ is placed in class $$K_1$$ if *both* $$S_1$$ and $$S_2$$ are in $$K_1$$. Otherwise, it is placed in $$K_2$$.
 		- __Rule 4.__ A string of the form to $$S$$ is placed in class $$K_2$$ if $$S$$ is in $$K_1$$ Otherwise, it is placed in $$K_1$$.
-
 	Based on this classification, we will say that a string $$S$$ is a tautology if it is a member of class $$K_1$$ regardless of where its constitutive elements belong.
-
 	- __STEP 3.__ In this step we will show that all the axioms of Sentential Calculus are tautologies. We will demonstrate this property explicitly for __Axioms 1__ and __2__ (the proof is similar for __Axioms 3__ and __4__). The easiest way to do this is to tabulate all the possible combinations. For __Axiom 1__, we have
 	$$
 	\begin{matrix}
