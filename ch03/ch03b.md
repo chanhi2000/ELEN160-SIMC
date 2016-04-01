@@ -16,12 +16,13 @@ $$
 
 ### Proposition 3.1.
 Any two operators that commute have a common set of eigenfunctions.
+
 *Proof*.  Suppose that $$\hat{A}$$ and $$\hat{B}$$ commute, and let $$\psi_n$$ be an eigenfunction of $$\hat{B}$$. Then, there exists a number bn such that
 $$
 \hat{B}\psi_n=b_n\psi_n\tag{3.37}
 $$
 
-It is not difficult to show that $$\varphi_n\equiv\hat{A}\psi_n$$ is also an eigenfunction of $$\hat{B}. Indeed, since $$\hat{A}\hat{B}=\hat{B}\hat{A}$$, we have
+It is not difficult to show that $$\varphi_n\equiv\hat{A}\psi_n$$ is also an eigenfunction of $$\hat{B}$$. Indeed, since $$\hat{A}\hat{B}=\hat{B}\hat{A}$$, we have
 $$
 \begin{align*}
 \hat{B}\phi_n&=\hat{B}\hat{A}\psi_n=\hat{A}\hat{B}\psi_n\\
