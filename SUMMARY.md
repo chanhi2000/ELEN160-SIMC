@@ -15,4 +15,5 @@
 	* [Incompleteness in Modern Mathematics](ch02/ch02d.md)
 	* [Notes](ch02/ch02e.md)
 * [Quantum Mechanics](ch03.md)
-	* []
+	* [Quantum Operators](ch03/ch03a.md)
+	* [Heisenberg's Uncertainty Principle](ch03/ch03b.md)
