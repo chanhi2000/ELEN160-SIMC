@@ -17,3 +17,5 @@
 * [Quantum Mechanics](ch03.md)
 	* [Quantum Operators](ch03/ch03a.md)
 	* [Heisenberg's Uncertainty Principle](ch03/ch03b.md)
+	* [The EPR Paradox and Quantum Entanglement](ch03/ch03c.md)
+	* []()
