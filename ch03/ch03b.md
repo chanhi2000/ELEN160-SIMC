@@ -25,8 +25,8 @@ $$
 It is not difficult to show that $$\varphi_n\equiv\hat{A}\psi_n$$ is also an eigenfunction of $$\hat{B}$$. Indeed, since $$\hat{A}\hat{B}=\hat{B}\hat{A}$$, we have
 $$
 \begin{align*}
-\hat{B}\phi_n&=\hat{B}\hat{A}\psi_n=\hat{A}\hat{B}\psi_n\\
-&=b_n\hat{A}\psi_n=b_n\phi_n\tag{3.38}
+\hat{B}\varphi_n&=\hat{B}\hat{A}\psi_n=\hat{A}\hat{B}\psi_n\\
+&=b_n\hat{A}\psi_n=b_n\varphi_n\tag{3.38}
 \end{align*}
 $$
 

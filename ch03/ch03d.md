@@ -138,14 +138,23 @@ $$
 
 How can we construct matrices that conform to $$(3.99)$$? A simple way to do this is to label the rows and columns of $$T(g_k)$$ as
 $$
-T(g_k)=\begin{matrix}
-&g_1&g_2&\cdots&g_n\\
-g_1&t_{11}&t_{12}&\cdots&t_{1n}\\
-g_2&t_{21}&t_{22}&\cdots&t_{2n}\\
-\vdots&\vdots&\vdots&\ddots&\vdots\\
-g_n&t_{n1}&t_{n2}&\cdots&t_{nn}
+T(g_k)=
+\begin{matrix}
+\begin{array}{cccc}
+&\phantom{2}g_1&\phantom{2}g_2&\cdots&\phantom{2}g_n
+\end{array}\\
+\begin{matrix}
+g_1\\g_2\\\vdots\\g_n
+\end{matrix}
+\begin{bmatrix}
+t_{11}&t_{12}&\cdots&t_{1n}\\
+t_{21}&t_{22}&\cdots&t_{2n}\\
+\vdots&\vdots&\ddots&\vdots\\
+t_{n1}&t_{n2}&\cdots&t_{nn}
+\end{bmatrix}
 \end{matrix}\tag{3.100}
 $$
+
 
 and define its elements as
 $$
@@ -163,21 +172,56 @@ In the following, we will show that $$(3.99)$$ holds for the representation of s
 $$
 T(g_2)=
 \begin{matrix}
-&1&i&-1&-i\\1&0&0&0&1\\i&1&0&0&0\\-1&0&1&0&0\\i&0&0&1&0
+\begin{array}{cccc}
+\phantom{6}&\:\:1&\phantom{8}\:\:i&\:\:-1&\:\:-i\phantom{6}
+\end{array}\\
+\begin{matrix}
+1\\i\\-1\\-i
+\end{matrix}
+\begin{bmatrix}
+\phantom{4}0\phantom{4}&\phantom{4}0\phantom{4}&\phantom{4}0\phantom{4}&\phantom{4}1\phantom{4}\\
+1&0&0&0\\
+0&1&0&0\\
+0&0&1&0
+\end{bmatrix}
 \end{matrix}\tag{3.102}
 $$
 
 and
 $$
-T(g_3)=\begin{matrix}
-&1&i&-1&-i\\1&0&0&1&0\\i&0&0&0&1\\-1&1&0&0&0\\i&0&1&0&0
+T(g_3)=
+\begin{matrix}
+\begin{array}{cccc}
+\phantom{6}&\:\:1&\phantom{8}\:\:i&\:\:-1&\:\:-i\phantom{6}
+\end{array}\\
+\begin{matrix}
+1\\i\\-1\\-i
+\end{matrix}
+\begin{bmatrix}
+\phantom{4}0\phantom{4}&\phantom{4}0\phantom{4}&\phantom{4}1\phantom{4}&\phantom{4}0\phantom{4}\\
+0&0&0&1\\
+1&0&0&0\\
+0&1&0&0
+\end{bmatrix}
 \end{matrix}\tag{3.103}
 $$
 
 Since $$g_2g_3=-i=g_4$$, and
 $$
-T(g_4)=\begin{matrix}
-&1&i&-1&-i\\0&1&0&0&0\\i&0&0&1&0\\-1&0&0&0&1\\i&1&0&0&0
+T(g_4)=
+\begin{matrix}
+\begin{array}{cccc}
+\phantom{6}&\:\:1&\phantom{8}\:\:i&\:\:-1&\:\:-i\phantom{6}
+\end{array}\\
+\begin{matrix}
+1\\i\\-1\\-i
+\end{matrix}
+\begin{bmatrix}
+\phantom{4}0\phantom{4}&\phantom{4}1\phantom{4}&\phantom{4}0\phantom{4}&\phantom{4}0\phantom{4}\\
+0&0&1&0\\
+0&0&0&1\\
+1&0&0&0
+\end{bmatrix}
 \end{matrix}\tag{3.104}
 $$
 
@@ -189,3 +233,12 @@ $$
 holds.
 
 It is important to recognize that symmetry groups can be finite or *continuous*. Group $$G$$ described in (3.89) is obviously finite, since it contains only eight elements. An example of a continuous group would be the rotation of a circle around its center. In this case, rotation by *any* angle α leaves the object unchanged. Furthermore, since successive rotations by angles $$\alpha$$ and $$\beta$$ are equivalent to a single rotation by angle $$\alpha+\beta$$, it is not difficult to show that this set constitutes a group. Continuous groups are very common in quantum mechanics, particularly in quantum field theory. The mathematical framework that provides a description for such groups is known as *Lie algebra*, after Norwegian mathematician Sophus Lie.
+
+### Supersymmetry
+A proper examination of group theory and its role in modern physics clearly lies beyond the scope of this book, since it requires a much more advanced mathematical background than the one we have provided. Nevertheless, I feel it is instructive to close this chapter with an example which illustrates how group theory is used in quantum mechanics. Although our discussion will be brief and informal, it should nevertheless provide the reader with some important insights on this subject. 
+
+Our focus in the following will be on quantum field theory, which provides the necessary conceptual framework for particle physics. This theory make extensive use of symmetry groups, which allow us (among other things) to mathematically transform one set of particles into another. One of the main difficulties that is encountered in this context stems from the fact that conventional symmetry groups (of the sort that we discussed) do *not* allow us to transform bosons into fermions, and vice versa. This restriction poses a major theoretical challenge, since it often leads to results that make no physical sense (such as infinite probabilities, for example).
+
+A possible way to circumvent this problem is to modify the standard properties of a group, and expand the rules of Lie algebra so that they satisfy both anticommutation and commutation laws. Such extensions have led to generalized concepts such as *supergroups* and *supersymmetry*, which allow us to eliminate the troublesome infinities. This becomes possible once each fermion is assigned a bosonic *superpartner*[^6] (and vice versa), whose presence largely neutralizes the underlying mathematical difficulties. The idea that all known particles have “superpartners” may perhaps sound strange, but it is widely accepted by physicists (although the existence of such entities has yet to be confirmed experimentally).[^7]
+
+Perhaps the most striking consequence of supersymmetry is the possibility that the electromagnetic, strong nuclear and weak nuclear forces could be indistinguishable at very high energies. Models that do not incorporate supersymmetry lack such unifying power, and predict instead that the strengths of the three forces would be similar, but not *identical*. This is clearly a prospect that most theoretical physicists find thoroughly unappealing (both aesthetically and philosophically). We should add in this context that aesthetic considerations are taken very seriously in Science, since they are often our best criterion for evaluating hypotheses that cannot be verified experimentally. Unification theories certainly fall into that category, since the energy levels required to test them are impossible to reproduce (it is believed that such extreme physical conditions existed only in the immediate aftermath of the Big Bang).
