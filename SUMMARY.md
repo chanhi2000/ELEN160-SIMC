@@ -19,3 +19,6 @@
 	* [Heisenberg's Uncertainty Principle](ch03/ch03b.md)
 	* [The EPR Paradox and Quantum Entanglement](ch03/ch03c.md)
 	* [Group Theory and Supersymmetry](ch03/ch03d.md)
+	* [Notes](ch03/ch03e.md)
+* [The Theory of Relativity](ch04.md)
+	* [Special Relativity](ch04/ch04a.md)

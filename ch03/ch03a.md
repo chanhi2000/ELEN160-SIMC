@@ -207,3 +207,23 @@ $$
 \psi(x)=a\alpha\bar{\psi}_A(x)+b\bar{\psi}_B(x)\tag{3.34}
 $$
 In this representation, $$a^2$$ is the probability that $$\psi(x)$$ will collapse into state $$\bar{\psi}_A(x)$$, which corresponds to $$q_a\leq{q}\leq{q}_b$$. Note that $$\bar{\psi}_A(x)$$ is *not* a stat with a definite value of $$q$$, but rather corresponds to a *fixed range* of possible values.
+
+[^1]: For operators, eigenfunctions play the same role that eigenvectors play for matrices
+[^2]: A scalar product is a rule by which two elements of a linear space produce a number (either real or complex). If these elements happen to be real vectors, then the scalar product can be defined as
+$$
+\left<x,\:y\right>=x^Ty\tag{3.106}
+$$
+If, on the other hand, the elements are complex-valued functions, we can use
+$$
+\left<f(x),\:g(x)\right>=\int{f^*(\rho)g(\rho)d\rho}\tag{3.107}
+$$
+since this integral produces a complex number (note that $$f^*(\rho)$$ represents the complex conjugate of $$f(\rho)$$).
+[^3]: This property follows directly from the definition of the scalar product, since
+$$
+\begin{align*}
+\left<\sum_i{a_if_i(x),\:g(x)}\right>&=\int{\left(\sum_i\alpha_if_i(\rho)\right)g(\rho)d\rho}\\
+&=\sum_i\alpha_i^*\int{f_i^*(\rho)g(\rho)d\rho}\\
+&=\sum_i\alpha_i^*\left<f_i(x),\:g(x)\right>
+\end{align*}\tag{3.108}
+$$
+[^4]: Operators can have infinitely many distinct eigenvalues (unlike $$n\times{n}$$ matrices which have no more than $$n$$). In general, the set of eigenvalues that correspond to a linear operator can be *discrete* or *continuous*.
